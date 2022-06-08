@@ -1,0 +1,49 @@
+.skills {
+  background-color: #4700b3;
+  padding: 15px;
+}
+.skills .skills-header img {
+  width: 35px;
+  margin-right: 10px;
+}
+.skills .skills-header h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.skills .skills-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-content {
+  background-color: rgba(0, 0, 0, 0.52);
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skills-content > div {
+  height: 80px;
+  background: black;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  min-width: 300px;
+  align-items: center;
+  position: relative;
+}
+.skills-content > div > span {
+  font-size: 20px;
+
+  position: absolute;
+  right: 5%;
+}
+
+.skills-content > div > img {
+  height: 100%;
+}

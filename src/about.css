@@ -1,0 +1,47 @@
+.about {
+  position: relative;
+  padding: 20px;
+}
+.about .about-header img {
+  width: 35px;
+  margin-right: 10px;
+}
+.about .about-header h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.about .about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.about .about-left > img {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+}
+.about .about-left {
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  padding: 2px;
+}
+
+.about .about-right {
+  min-width: 300px;
+  width: 40%;
+}
+.about-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about-fields > div {
+  margin-top: 10px;
+  width: 48%;
+}

@@ -1,0 +1,41 @@
+.header {
+  height: 60px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  top: 0;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+.header .right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header .right img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header .left {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .left > a {
+  color: rgb(55, 55, 55);
+  text-decoration: none;
+  font-family: cursive;
+}
+.header .left > a:hover {
+  text-decoration: underline;
+  color: rgb(96, 96, 233);
+}

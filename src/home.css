@@ -1,0 +1,47 @@
+.home {
+  height: 630px;
+  position: relative;
+}
+#tsparticles {
+  height: 100%;
+}
+.home-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 95%;
+
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.home-left {
+  height: 80%;
+  width: 40%;
+}
+.home-right {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.home-right > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.home-left a img {
+  height: 35px;
+  width: 35px;
+}
+.home-left .social-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.home-left .social-link > a {
+  margin-left: 20px;
+}

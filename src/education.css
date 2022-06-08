@@ -1,0 +1,46 @@
+.education {
+  padding: 15px;
+  background-color: #e6ecff;
+}
+.education .education-header img {
+  width: 35px;
+  margin-right: 10px;
+}
+.education .education-header h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.education .education-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.education-content {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.education-content > div {
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+
+  width: 70%;
+  padding: 10px;
+  background-color: white;
+}
+
+.education-content > div p {
+  margin: 0;
+}
+.education-content > div img {
+  height: 120px;
+  width: 180px;
+}
+.education-content > div > div {
+  margin-left: 10%;
+}
