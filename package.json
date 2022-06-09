@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://harsh-bhagtani-portfolio.github.io",
+  "homepage": "https://harshbhagtani.github.io/Porfolio-page",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
