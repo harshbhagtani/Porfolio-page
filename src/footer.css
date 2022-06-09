@@ -1,6 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
 }
 .footerr {
   background-color: rgb(2, 2, 67);
@@ -9,10 +12,12 @@
 .footer .left {
   width: 50%;
   color: white;
+  min-width: 250px;
 }
 .footer .right {
   width: 30%;
   color: white;
+  min-width: 250px;
 }
 .footer .right > div {
   display: flex;

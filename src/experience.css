@@ -1,5 +1,6 @@
 .experience {
   padding: 15px;
+  padding-bottom: 25px;
 }
 .experience .experience-header img {
   width: 35px;
@@ -15,7 +16,7 @@
   justify-content: center;
 }
 .vertcal-timeline {
-  height: 450px;
+  height: 650px;
   width: 0;
   border: 4px solid black;
   margin-left: 50px;
@@ -27,7 +28,7 @@
   left: -18px;
   border: 1px solid black;
   background-color: rgb(249, 192, 86);
-  z-index: 100;
+  z-index: 10;
   border-radius: 50%;
   padding: 5px;
   padding-bottom: 3px;
@@ -36,7 +37,8 @@
   width: 25px;
 }
 .experince-box {
-  width: 700px;
+  width: 60vw;
+  min-width: 350px;
   background-color: rgb(249, 192, 86);
 
   position: absolute;

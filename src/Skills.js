@@ -11,7 +11,7 @@ import js from "./assets/js.png";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skillss">
       <div className="skills-header">
         <img src={coding}></img>
         <h1 style={{ textAlign: "center", color: "white" }}>

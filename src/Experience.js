@@ -39,10 +39,10 @@ function Experience() {
             </ul>
           </div>
           {/** */}
-          <div className="box" style={{ top: "250px" }}>
+          <div className="box" style={{ top: "400px" }}>
             <img src={work}></img>
           </div>
-          <div className="experince-box" style={{ top: "250px" }}>
+          <div className="experince-box" style={{ top: "400px" }}>
             <h3 style={{ marginLeft: "30px" }}>
               Frontend developer | Electura{" "}
               <span style={{ fontSize: "15px", fontWeight: "normal" }}>

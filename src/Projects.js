@@ -32,7 +32,7 @@ function Projects() {
   ]);
 
   return (
-    <div className="projects">
+    <div className="projects" id="projectss">
       <div className="projects-header">
         <img src={coding}></img>
         <h1 style={{ textAlign: "center", color: "white" }}>

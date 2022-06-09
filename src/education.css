@@ -30,6 +30,7 @@
   flex-direction: row;
 
   width: 70%;
+  min-width: 400px;
   padding: 10px;
   background-color: white;
 }

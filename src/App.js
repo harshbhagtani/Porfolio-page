@@ -10,11 +10,15 @@ import Experience from "./Experience";
 import Footer from "./Footer";
 
 function App() {
+  const scrolll = (e) => {
+    console.log(e.target);
+  };
+
   return (
     <div className="App">
       <Header />
       <Home />
-      <About />
+      <About onClick={(e) => scrolll(e)} />
       <Skills />
       <Education />
       <Projects />
