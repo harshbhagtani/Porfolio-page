@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ed07bdd.css",
-    "main.js": "/static/js/main.80ad97a4.js",
-    "static/js/937.cc77dee8.chunk.js": "/static/js/937.cc77dee8.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/CCB.jpg": "/static/media/CCB.0a12d74707d9f817bcad.jpg",
-    "static/media/c++.png": "/static/media/c++.0a81196c8995a6248ba3.png",
-    "static/media/IIT.jpg": "/static/media/IIT.7418031a603c06dc20be.jpg",
-    "static/media/pp.jpg": "/static/media/pp.ed904394659bf95ce54b.jpg",
-    "static/media/12th.jpg": "/static/media/12th.9f2bd49fd8581df4b79d.jpg",
-    "static/media/ppa.jpeg": "/static/media/ppa.7c25861cdfcd235c11da.jpeg",
-    "static/media/HB.webp": "/static/media/HB.631ef545ce8d7e1eb4f0.webp",
-    "static/media/facebook.png": "/static/media/facebook.01a470d813915c298403.png",
-    "static/media/github.png": "/static/media/github.e8efa7f43ecd05b0a5e4.png",
-    "static/media/linkedin.png": "/static/media/linkedin.703626263087e3e7c315.png",
-    "static/media/user.png": "/static/media/user.33e7df0963941edbeb70.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.3ed07bdd.css.map": "/static/css/main.3ed07bdd.css.map",
-    "main.80ad97a4.js.map": "/static/js/main.80ad97a4.js.map",
-    "937.cc77dee8.chunk.js.map": "/static/js/937.cc77dee8.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Porfolio-page/static/css/main.3ed07bdd.css",
+    "main.js": "/Porfolio-page/static/js/main.a4e4380a.js",
+    "static/js/937.cc77dee8.chunk.js": "/Porfolio-page/static/js/937.cc77dee8.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Porfolio-page/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CCB.jpg": "/Porfolio-page/static/media/CCB.0a12d74707d9f817bcad.jpg",
+    "static/media/c++.png": "/Porfolio-page/static/media/c++.0a81196c8995a6248ba3.png",
+    "static/media/IIT.jpg": "/Porfolio-page/static/media/IIT.7418031a603c06dc20be.jpg",
+    "static/media/pp.jpg": "/Porfolio-page/static/media/pp.ed904394659bf95ce54b.jpg",
+    "static/media/12th.jpg": "/Porfolio-page/static/media/12th.9f2bd49fd8581df4b79d.jpg",
+    "static/media/ppa.jpeg": "/Porfolio-page/static/media/ppa.7c25861cdfcd235c11da.jpeg",
+    "static/media/HB.webp": "/Porfolio-page/static/media/HB.631ef545ce8d7e1eb4f0.webp",
+    "static/media/facebook.png": "/Porfolio-page/static/media/facebook.01a470d813915c298403.png",
+    "static/media/github.png": "/Porfolio-page/static/media/github.e8efa7f43ecd05b0a5e4.png",
+    "static/media/linkedin.png": "/Porfolio-page/static/media/linkedin.703626263087e3e7c315.png",
+    "static/media/user.png": "/Porfolio-page/static/media/user.33e7df0963941edbeb70.png",
+    "static/media/logo.svg": "/Porfolio-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Porfolio-page/index.html",
+    "main.3ed07bdd.css.map": "/Porfolio-page/static/css/main.3ed07bdd.css.map",
+    "main.a4e4380a.js.map": "/Porfolio-page/static/js/main.a4e4380a.js.map",
+    "937.cc77dee8.chunk.js.map": "/Porfolio-page/static/js/937.cc77dee8.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Porfolio-page/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ed07bdd.css",
-    "static/js/main.80ad97a4.js"
+    "static/js/main.a4e4380a.js"
   ]
 }
