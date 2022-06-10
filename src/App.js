@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <About onClick={(e) => scrolll(e)} />
+      <About />
       <Skills />
       <Education />
       <Projects />

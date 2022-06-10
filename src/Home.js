@@ -5,6 +5,7 @@ import linkedin from "./assets/linkedin.png";
 import facebook from "./assets/facebook.png";
 import github from "./assets/github.png";
 import ppa from "./assets/ppa.jpeg";
+import lc from "./assets/lc.png";
 
 import "./home.css";
 
@@ -53,16 +54,21 @@ const Home = () => {
           </h2>
           <div className="social-link">
             {" "}
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/harsh-bhagtani-064041194/"
+              target="_blank"
+            >
               <img src={linkedin}></img>
             </a>
             <a href="">
               <img src={facebook}></img>
             </a>
-            <a href="">
+            <a href=" https://github.com/harshbhagtani" target="_blank">
               <img src={github}></img>
             </a>
-            <a href=""></a>
+            <a href="https://leetcode.com/user0781C/" target="_blank">
+              <img src={lc}></img>
+            </a>
           </div>
         </div>
         <div className="home-right">

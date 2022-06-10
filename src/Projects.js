@@ -6,28 +6,28 @@ import Tilt from "react-parallax-tilt";
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      name: "Amazon Clone",
-      description: "",
-      view: "",
-      code: "",
+      name: "social-web-app",
+      description: "ReactJs, Redux, JavaScript, JWT-Auth, Css",
+      view: "https://harshbhagtani.github.io/Login",
+      code: "https://github.com/harshbhagtani/social-web-app",
     },
     {
       name: "Whatapp Clone",
-      description: "",
-      view: "",
-      code: "",
+      description: "ReactJs, Redux, JavaScript, FireBase, Css",
+      code: "https://github.com/harshbhagtani/Whatsapp-clone",
+      view: "https://whatsapp-clone-b608b.web.app/",
     },
     {
-      name: "Sort visualizer",
-      description: "",
-      view: "",
-      code: "",
+      name: "Ping Pong game",
+      description: "JavaScrip,HTML, Css",
+      view: "https://harshbhagtani.github.io/Ping-pong-game/",
+      code: "https://github.com/harshbhagtani/Ping-pong-game",
     },
     {
       name: "Covid-19 tracker",
-      description: "",
-      view: "",
-      code: "",
+      description: "ReactJs, JavaScript, Html, Css,",
+      view: "https://covid-19-tracker-59515.web.app/",
+      code: "https://github.com/harshbhagtani/Covid19-Tracker",
     },
   ]);
 
@@ -53,12 +53,15 @@ function Projects() {
                     width: "100%",
                   }}
                 >
-                  TechStack:JavaScript, HTML, Css, ReactJs, Redux, Firebase.
+                  TechStack: {data.description}
                 </p>
               </div>
-
-              <button style={{ left: "10px" }}>View</button>
-              <button style={{ right: "10px" }}>Code {"</>"}</button>
+              <a href={data.view} target="_blank">
+                <button style={{ left: "10px" }}>View</button>
+              </a>
+              <a href={data.code} target="_blank">
+                <button style={{ right: "10px" }}>Code {"</>"}</button>
+              </a>
             </Tilt>
           );
         })}
